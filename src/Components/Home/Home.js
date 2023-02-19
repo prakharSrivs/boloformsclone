@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import Customers from './Customers'
 import Hero from './Hero'
 import './home.css'
+import HowToUse from './HowToUse'
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
     <Navbar/>
     <Hero/>
     <Customers/>
-    
+    <HowToUse/>
     </div>
   )
 }

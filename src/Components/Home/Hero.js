@@ -12,7 +12,7 @@ function Hero() {
                 BoloForms is a Google Forms add on that allows you to add conditional logic to your forms. With BoloForms, you can create interactive workflows, approval flows & automate processes.
                 </div>
                 <div className="ctaButton text navbarButton fillButton">
-                 Install for Free
+                <i class="fa-solid fa-rocket-launch"></i> Install for Free
                 </div>
             </div>
             <div className="rightContainer">

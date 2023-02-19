@@ -1,6 +1,10 @@
+*{  
+    font-family: 'Poppins', sans-serif;
+}
 .heroContainer{
     display: flex;
     justify-content: center;
+    padding-left: 10%;
     padding-top: 9%;
 }
 .text {
@@ -74,7 +78,13 @@
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-bottom:0.5rem ;
+    margin-bottom:2.5rem ;
+}
+.sectionSubHeading{
+    text-align: center;
+    margin-top: -2rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
 }
 .section{
     padding: 8rem;
@@ -108,6 +118,35 @@
 }
 
 
+.cardImage{
+    min-height: 450px;
+    min-width: 351px;
+    transition-timing-function: cubic-bezier(0,0,.2,1);
+    transition-property: transform;
+    transition-duration: .3s;
+}
+.cardImage:hover{
+    transform: translateY(-0.75rem);
+}
+.cardHeading{
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.cardSubheading{
+    font-size:1rem;
+    text-align: center;
+}
+
+.cardsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardImage{
+    flex-shrink: 0;
+    min-width: 30vw;
+}
 
 @media (max-width:835px){
     .heroContainer{

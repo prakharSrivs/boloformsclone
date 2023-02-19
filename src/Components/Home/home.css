@@ -1,0 +1,136 @@
+.heroContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 9%;
+}
+.text {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
+}
+.headingText{
+    line-height: 55px
+}
+.contentText{
+    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    padding: 1rem 0rem;
+}
+
+.ctaButton{
+    word-spacing: 0.2em;
+    letter-spacing: 0.025em;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+}
+
+.iframeStyles{
+    height: 315px !important;
+    width: 560px;
+    border: 4px solid rgb(154 106 253);
+    border-radius: 1rem;
+}
+.leftContainer{
+    max-width: 40%;
+    margin-right: auto;
+}
+.rightContainer{
+    height: 315px;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+@media (min-width: 835px)
+{
+    .iframeStyles{
+    width: 460px !important;
+}
+
+
+}
+
+@media (min-width: 1024px)
+{
+    .iframeStyles{
+    width: 560px !important;
+}}
+
+
+.ctaButton{
+    max-width:200px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionHeading{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom:0.5rem ;
+}
+.section{
+    padding: 8rem;
+    box-sizing: border-box;
+}
+.slider{
+    overflow: hidden;
+}
+.allCustomers{
+    display: flex;
+    padding: 1rem 3rem;
+    margin: 0 3rem;
+    overflow-x:auto;
+}
+.allCustomers::-webkit-scrollbar {
+    display: none;
+  }
+.customer{
+    padding: 1rem;
+    height: 250px;
+    width: 250px;
+    border-radius: 0.75rem;
+    margin-right: 1.5rem;
+    border: 0 solid #e5e7eb;
+    border-width: 1px;
+    scroll-behavior: smooth;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width:835px){
+    .heroContainer{
+        flex-direction: column;
+    }
+    .leftContainer{
+        margin-right: none;
+        max-width: 100%;
+        padding: 5%;
+    }
+    .headingText{
+        font-size: 1.875rem;
+        line-height: 2.75rem;
+    }
+    .ctaButton{
+        max-width: 100%;
+    }
+    .rightContainer{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .iframeStyles{
+        width: 90vw;
+        height: 275px !important;
+    }
+}
